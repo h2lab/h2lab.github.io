@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>STIGs on Hardware Hacking Laboratory</title>
-		<link>https://blog.h2lab.org/stigs/</link>
+		<link>http://localhost:1313/stigs/</link>
 		<description>Recent content in STIGs on Hardware Hacking Laboratory</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,13 +12,13 @@
 		
 			<lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://blog.h2lab.org/stigs/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/stigs/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Nouveau guide technique : Protection mémoire physique pour systèmes embarqués</title>
-				<link>https://blog.h2lab.org/stigs/nouveau-guide-technique-protection-memoire-physique/</link>
+				<title>New Technical Guide: Physical Memory Protection for Embedded Systems</title>
+				<link>http://localhost:1313/stigs/nouveau-guide-technique-protection-memoire-physique/</link>
 				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>https://blog.h2lab.org/stigs/nouveau-guide-technique-protection-memoire-physique/</guid>
-				<description>Publication d&amp;rsquo;un nouveau guide STIG sur la protection mémoire des microcontrôleurs et l&amp;rsquo;usage de la MPU comme contrôle de sécurité défendable.</description>
+				<guid>http://localhost:1313/stigs/nouveau-guide-technique-protection-memoire-physique/</guid>
+				<description>Publication of a new STIG guide on microcontroller memory protection and the use of the MPU as a defensible security control.</description>
 			</item>
 	</channel>
 </rss>

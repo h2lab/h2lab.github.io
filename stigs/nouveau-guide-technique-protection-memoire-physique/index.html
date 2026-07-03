@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,20 +12,20 @@
 <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<title itemprop="name"> Nouveau guide technique : Protection mémoire physique pour systèmes embarqués | Hardware Hacking Laboratory 
+<title itemprop="name"> New Technical Guide: Physical Memory Protection for Embedded Systems | Hardware Hacking Laboratory 
 </title>
-<meta name="description" content="Guide STIG pour accompagner la transition vers une architecture MPU défendable en revue technique et en audit cyber." />
-<meta property="og:title" content="Nouveau guide technique : Protection mémoire physique pour systèmes embarqués | Hardware Hacking Laboratory" />
-<meta name="twitter:title" content="Nouveau guide technique : Protection mémoire physique pour systèmes embarqués | Hardware Hacking Laboratory" />
-<meta itemprop="name" content="Nouveau guide technique : Protection mémoire physique pour systèmes embarqués | Hardware Hacking Laboratory" />
-<meta name="application-name" content="Nouveau guide technique : Protection mémoire physique pour systèmes embarqués | Hardware Hacking Laboratory" />
+<meta name="description" content="STIG Guide to support the transition to a defensible MPU architecture in technical review and cyber audit." />
+<meta property="og:title" content="New Technical Guide: Physical Memory Protection for Embedded Systems | Hardware Hacking Laboratory" />
+<meta name="twitter:title" content="New Technical Guide: Physical Memory Protection for Embedded Systems | Hardware Hacking Laboratory" />
+<meta itemprop="name" content="New Technical Guide: Physical Memory Protection for Embedded Systems | Hardware Hacking Laboratory" />
+<meta name="application-name" content="New Technical Guide: Physical Memory Protection for Embedded Systems | Hardware Hacking Laboratory" />
 <meta property="og:description"
-      content="Guide STIG pour accompagner la transition vers une architecture MPU défendable en revue technique et en audit cyber." />
+      content="STIG Guide to support the transition to a defensible MPU architecture in technical review and cyber audit." />
 <meta property="og:site_name" content="Hardware Hacking Laboratory" />
-<meta property="og:url" content="https://blog.h2lab.org/stigs/nouveau-guide-technique-protection-memoire-physique/" />
+<meta property="og:url" content="http://localhost:1313/stigs/nouveau-guide-technique-protection-memoire-physique/" />
 <meta property="og:locale" content="en">
 <meta property="og:image" content="/images/tailbliss-cover.png" />
-<meta property="og:image:secure_url" content="https://blog.h2lab.org/images/tailbliss-cover.png" />
+<meta property="og:image:secure_url" content="http://localhost:1313/images/tailbliss-cover.png" />
 <meta property="og:type" content="article" />
 
 
@@ -92,25 +92,25 @@
         <nav id="menuItems" x-cloak :class="{'flex': open, 'hidden': !open}" class="hidden flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
             
             
-            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="https://blog.h2lab.org/blog/" title="Blog">
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="http://localhost:1313/blog/" title="Blog">
                 Blog
             </a>
             
             
             
-            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="https://blog.h2lab.org/events/" title="Events">
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="http://localhost:1313/events/" title="Events">
                 Events
             </a>
             
             
             
-            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="https://blog.h2lab.org/categories/stigs/" title="STIGs">
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="http://localhost:1313/categories/stigs/" title="STIGs">
                 STIGs
             </a>
             
             
             
-            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="https://blog.h2lab.org/about/" title="About">
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="http://localhost:1313/about/" title="About">
                 About
             </a>
             
@@ -135,7 +135,7 @@
   <header class="mb-4 bg-primary-600">
     <span class="py-96">
       <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
-        Nouveau guide technique : Protection mémoire physique pour systèmes embarqués
+        New Technical Guide: Physical Memory Protection for Embedded Systems
       </h1>
     </span>
   </header>
@@ -146,28 +146,29 @@
   </div>
   
   <div class="px-6 pt-6 pb-16 mx-auto prose prose-h1:text-2xl dark:text-white">
-    <p>Nous sommes heureux de partager la publication d&rsquo;un nouveau guide technique (STIG) sur la protection mémoire des microcontrôleurs.</p>
-<p>Ce document vise à accompagner les équipes cybersécurité embarquée dans le passage d&rsquo;un système sans protection mémoire à une architecture où la MPU (Memory Protection Unit) est utilisée comme contrôle de sécurité défendable en revue technique et en audit cyber.</p>
-<p>Ce guide relie les mécanismes matériels à des menaces concrètes, à des choix d&rsquo;architecture logicielle ainsi qu&rsquo;à des critères de vérification opérationnels.</p>
-<h2 id="architectures-couvertes">Architectures couvertes</h2>
-<p>Ce guide couvre les architectures suivantes :</p>
+    <p>We are pleased to share the publication of a new technical guide (STIG) on microcontroller memory protection.</p>
+<p>This document aims to support embedded cybersecurity teams in transitioning from a system without memory protection to an architecture where the MPU (Memory Protection Unit) is used as a defensible security control in technical review and cyber audit.</p>
+<p>This guide connects hardware mechanisms to concrete threats, software architecture choices, and operational verification criteria.</p>
+<h2 id="supported-architectures">Supported Architectures</h2>
+<p>This guide covers the following architectures:</p>
 <ul>
 <li>ARMv7-M</li>
 <li>ARMv8-M</li>
 <li>NXP PowerPC base e200</li>
-<li>RISC-V exploitant une PMP</li>
+<li>RISC-V with PMP</li>
 </ul>
-<h2 id="objectifs-du-guide">Objectifs du guide</h2>
-<p>Le guide a pour but de :</p>
+<h2 id="guide-objectives">Guide Objectives</h2>
+<p>The guide aims to:</p>
 <ul>
-<li>formaliser les objectifs de sécurité liés à l&rsquo;usage de la MPU dans les systèmes critiques</li>
-<li>relier des scénarios d&rsquo;attaque concrets, illustrés par des exemples réels</li>
-<li>associer une logique d&rsquo;analyse et de validation permettant de démontrer le respect des objectifs de sécurité</li>
+<li>formalize security objectives related to the use of the MPU in critical systems</li>
+<li>link concrete attack scenarios, illustrated with real-world examples</li>
+<li>associate an analysis and validation logic allowing to demonstrate compliance with security objectives</li>
 </ul>
-<p>Il indique aussi les limites que peut avoir l&rsquo;usage de la MPU seule, afin de mieux appréhender sa capacité à s&rsquo;intégrer dans une architecture sécurisée et résiliente plus générale pour les équipements utilisant des microcontrôleurs.</p>
-<h2 id="téléchargement-du-guide">Téléchargement du guide</h2>
-<p><a href="/doc/h2lab_stig_mpu_001.pdf">Télécharger le guide technique (PDF)</a></p>
-<p>Le document est sous licence Libre.</p>
+<p>It also indicates the limitations of using the MPU alone, in order to better understand its ability to integrate into a more general secured and resilient architecture for equipment using microcontrollers.</p>
+<h2 id="download-the-guide">Download the Guide</h2>
+<p><strong>English version:</strong> <a href="/doc/h2lab_stig_mpu_001-en.pdf">Download Technical Guide (PDF)</a></p>
+<p><strong>French version:</strong> <a href="/doc/h2lab_stig_mpu_001.pdf">Télécharger le guide technique (PDF)</a></p>
+<p>The document is published under a Free License.</p>
 
   </div>
 </article>
@@ -176,13 +177,13 @@
     <div class="px-4 py-12 mx-auto max-w-7xl">
         <nav class="flex flex-wrap gap-6 justify-center" aria-label="Footer">
             
-            <a href="https://blog.h2lab.org/blog/" class="text-base text-gray-400 hover:text-gray-200">Blog</a>
+            <a href="http://localhost:1313/blog/" class="text-base text-gray-400 hover:text-gray-200">Blog</a>
             
-            <a href="https://blog.h2lab.org/events/" class="text-base text-gray-400 hover:text-gray-200">Events</a>
+            <a href="http://localhost:1313/events/" class="text-base text-gray-400 hover:text-gray-200">Events</a>
             
-            <a href="https://blog.h2lab.org/categories/stigs/" class="text-base text-gray-400 hover:text-gray-200">STIGs</a>
+            <a href="http://localhost:1313/categories/stigs/" class="text-base text-gray-400 hover:text-gray-200">STIGs</a>
             
-            <a href="https://blog.h2lab.org/about/" class="text-base text-gray-400 hover:text-gray-200">About</a>
+            <a href="http://localhost:1313/about/" class="text-base text-gray-400 hover:text-gray-200">About</a>
             
         </nav>
         <p class="mt-8 text-base text-center text-gray-400">&copy; 2026 Hardware Hacking Laboratory</p>
