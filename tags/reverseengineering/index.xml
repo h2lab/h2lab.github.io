@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Reverseengineering on Hardware Hacking Laboratory</title>
-		<link>https://www.h2lab.org/tags/reverseengineering/</link>
+		<link>https://blog.h2lab.org/tags/reverseengineering/</link>
 		<description>Recent content in Reverseengineering on Hardware Hacking Laboratory</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 23 Jun 2026 20:05:00 +0200</lastBuildDate>
 		
-			<atom:link href="https://www.h2lab.org/tags/reverseengineering/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://blog.h2lab.org/tags/reverseengineering/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>H2Lab est sponsor officiel LeHack 2026</title>
-				<link>https://www.h2lab.org/events/h2lab-sponsor-officiel-lehack-2026/</link>
+				<link>https://blog.h2lab.org/events/h2lab-sponsor-officiel-lehack-2026/</link>
 				<pubDate>Tue, 23 Jun 2026 20:05:00 +0200</pubDate>
-				<guid>https://www.h2lab.org/events/h2lab-sponsor-officiel-lehack-2026/</guid>
+				<guid>https://blog.h2lab.org/events/h2lab-sponsor-officiel-lehack-2026/</guid>
 				<description>H2Lab sera présent à LeHack 2026 et animera, avec Twisted Wires, un workshop technique sur le contournement des protections JTAG.</description>
 			</item>
 	</channel>
