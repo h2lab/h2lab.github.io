@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Hardware Hacking Laboratory</title>
-		<link>http://localhost:1313/tags/</link>
+		<link>https://blog.h2lab.org/tags/</link>
 		<description>Recent content in Tags on Hardware Hacking Laboratory</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,96 +12,96 @@
 		
 			<lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://blog.h2lab.org/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Embedded-Cybersecurity</title>
-				<link>http://localhost:1313/tags/embedded-cybersecurity/</link>
+				<link>https://blog.h2lab.org/tags/embedded-cybersecurity/</link>
 				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/embedded-cybersecurity/</guid>
+				<guid>https://blog.h2lab.org/tags/embedded-cybersecurity/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Mpu</title>
-				<link>http://localhost:1313/tags/mpu/</link>
+				<link>https://blog.h2lab.org/tags/mpu/</link>
 				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/mpu/</guid>
+				<guid>https://blog.h2lab.org/tags/mpu/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Stigs</title>
-				<link>http://localhost:1313/tags/stigs/</link>
+				<link>https://blog.h2lab.org/tags/stigs/</link>
 				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/stigs/</guid>
+				<guid>https://blog.h2lab.org/tags/stigs/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Cyberdefense</title>
-				<link>http://localhost:1313/tags/cyberdefense/</link>
+				<link>https://blog.h2lab.org/tags/cyberdefense/</link>
 				<pubDate>Tue, 23 Jun 2026 20:05:00 +0200</pubDate>
-				<guid>http://localhost:1313/tags/cyberdefense/</guid>
+				<guid>https://blog.h2lab.org/tags/cyberdefense/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Events</title>
-				<link>http://localhost:1313/tags/events/</link>
+				<link>https://blog.h2lab.org/tags/events/</link>
 				<pubDate>Tue, 23 Jun 2026 20:05:00 +0200</pubDate>
-				<guid>http://localhost:1313/tags/events/</guid>
+				<guid>https://blog.h2lab.org/tags/events/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Hardwaresecurity</title>
-				<link>http://localhost:1313/tags/hardwaresecurity/</link>
+				<link>https://blog.h2lab.org/tags/hardwaresecurity/</link>
 				<pubDate>Tue, 23 Jun 2026 20:05:00 +0200</pubDate>
-				<guid>http://localhost:1313/tags/hardwaresecurity/</guid>
+				<guid>https://blog.h2lab.org/tags/hardwaresecurity/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Jtag</title>
-				<link>http://localhost:1313/tags/jtag/</link>
+				<link>https://blog.h2lab.org/tags/jtag/</link>
 				<pubDate>Tue, 23 Jun 2026 20:05:00 +0200</pubDate>
-				<guid>http://localhost:1313/tags/jtag/</guid>
+				<guid>https://blog.h2lab.org/tags/jtag/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Lehack2026</title>
-				<link>http://localhost:1313/tags/lehack2026/</link>
+				<link>https://blog.h2lab.org/tags/lehack2026/</link>
 				<pubDate>Tue, 23 Jun 2026 20:05:00 +0200</pubDate>
-				<guid>http://localhost:1313/tags/lehack2026/</guid>
+				<guid>https://blog.h2lab.org/tags/lehack2026/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Reverseengineering</title>
-				<link>http://localhost:1313/tags/reverseengineering/</link>
+				<link>https://blog.h2lab.org/tags/reverseengineering/</link>
 				<pubDate>Tue, 23 Jun 2026 20:05:00 +0200</pubDate>
-				<guid>http://localhost:1313/tags/reverseengineering/</guid>
+				<guid>https://blog.h2lab.org/tags/reverseengineering/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Workshop</title>
-				<link>http://localhost:1313/tags/workshop/</link>
+				<link>https://blog.h2lab.org/tags/workshop/</link>
 				<pubDate>Tue, 23 Jun 2026 20:05:00 +0200</pubDate>
-				<guid>http://localhost:1313/tags/workshop/</guid>
+				<guid>https://blog.h2lab.org/tags/workshop/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Blog</title>
-				<link>http://localhost:1313/tags/blog/</link>
+				<link>https://blog.h2lab.org/tags/blog/</link>
 				<pubDate>Sat, 18 Jun 2022 11:10:36 +0800</pubDate>
-				<guid>http://localhost:1313/tags/blog/</guid>
+				<guid>https://blog.h2lab.org/tags/blog/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>News</title>
-				<link>http://localhost:1313/tags/news/</link>
+				<link>https://blog.h2lab.org/tags/news/</link>
 				<pubDate>Wed, 18 May 2022 11:10:36 +0800</pubDate>
-				<guid>http://localhost:1313/tags/news/</guid>
+				<guid>https://blog.h2lab.org/tags/news/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Announcement</title>
-				<link>http://localhost:1313/tags/announcement/</link>
+				<link>https://blog.h2lab.org/tags/announcement/</link>
 				<pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/announcement/</guid>
+				<guid>https://blog.h2lab.org/tags/announcement/</guid>
 				<description></description>
 			</item>
 	</channel>

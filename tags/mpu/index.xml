@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Mpu on Hardware Hacking Laboratory</title>
-		<link>http://localhost:1313/tags/mpu/</link>
+		<link>https://blog.h2lab.org/tags/mpu/</link>
 		<description>Recent content in Mpu on Hardware Hacking Laboratory</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/mpu/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://blog.h2lab.org/tags/mpu/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>New Technical Guide: Physical Memory Protection for Embedded Systems</title>
-				<link>http://localhost:1313/stigs/nouveau-guide-technique-protection-memoire-physique/</link>
+				<link>https://blog.h2lab.org/stigs/nouveau-guide-technique-protection-memoire-physique/</link>
 				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/stigs/nouveau-guide-technique-protection-memoire-physique/</guid>
+				<guid>https://blog.h2lab.org/stigs/nouveau-guide-technique-protection-memoire-physique/</guid>
 				<description>Publication of a new STIG guide on microcontroller memory protection and the use of the MPU as a defensible security control.</description>
 			</item>
 	</channel>
