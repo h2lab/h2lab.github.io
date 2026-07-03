@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>STIGs on Hardware Hacking Laboratory</title>
+		<link>https://h2lab.org/stigs/</link>
+		<description>Recent content in STIGs on Hardware Hacking Laboratory</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://h2lab.org/stigs/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Nouveau guide technique : Protection mémoire physique pour systèmes embarqués</title>
+				<link>https://h2lab.org/stigs/nouveau-guide-technique-protection-memoire-physique/</link>
+				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://h2lab.org/stigs/nouveau-guide-technique-protection-memoire-physique/</guid>
+				<description>Publication d&amp;rsquo;un nouveau guide STIG sur la protection mémoire des microcontrôleurs et l&amp;rsquo;usage de la MPU comme contrôle de sécurité défendable.</description>
+			</item>
+	</channel>
+</rss>
