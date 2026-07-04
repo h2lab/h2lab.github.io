@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://blog.h2lab.org/categories/stigs/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>New Technical Guide: Secure update of embedded systems</title>
+				<link>https://blog.h2lab.org/stigs/nouveau-guide-technique-flipflop/</link>
+				<pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/nouveau-guide-technique-flipflop/</guid>
+				<description>Publication of a new STIG guide on microcontroller dual-bank based secure upgrade</description>
+			</item>
 			<item>
 				<title>New Technical Guide: Physical Memory Protection for Embedded Systems</title>
 				<link>https://blog.h2lab.org/stigs/nouveau-guide-technique-protection-memoire-physique/</link>

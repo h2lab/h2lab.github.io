@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.h2lab.org/categories/</loc>
+    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/dual-bank/</loc>
+    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/embedded-cybersecurity/</loc>
+    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/stigs/nouveau-guide-technique-flipflop/</loc>
+    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/secure-update/</loc>
+    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/categories/stigs/</loc>
+    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/stigs/</loc>
+    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/</loc>
+    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.h2lab.org/stigs/</loc>
     <lastmod>2026-07-03T15:00:00+02:00</lastmod>
   </url><url>
@@ -14,12 +38,6 @@
     <loc>https://blog.h2lab.org/</loc>
     <lastmod>2026-07-03T14:30:00+02:00</lastmod>
   </url><url>
-    <loc>https://blog.h2lab.org/categories/</loc>
-    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/embedded-cybersecurity/</loc>
-    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.h2lab.org/events/</loc>
     <lastmod>2026-07-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -27,15 +45,6 @@
     <lastmod>2026-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/stigs/nouveau-guide-technique-protection-memoire-physique/</loc>
-    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/categories/stigs/</loc>
-    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/stigs/</loc>
-    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/</loc>
     <lastmod>2026-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/cyberdefense/</loc>
