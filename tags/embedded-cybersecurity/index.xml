@@ -10,9 +10,37 @@
 		
 		
 		
-			<lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://blog.h2lab.org/tags/embedded-cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>New Technical Guide: A Methodology for Selecting Security Components</title>
+				<link>https://blog.h2lab.org/stigs/new-technical-guide-security-components-selection/</link>
+				<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/new-technical-guide-security-components-selection/</guid>
+				<description>Publication of a new STIG guide providing a complete methodology for selecting, integrating, and auditing hardware security building blocks in embedded products.</description>
+			</item>
+			<item>
+				<title>New Technical Guide: Secure Bare-Metal Firmware Development in C</title>
+				<link>https://blog.h2lab.org/stigs/new-technical-guide-secure-embedded-c-development/</link>
+				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/new-technical-guide-secure-embedded-c-development/</guid>
+				<description>Publication of a new STIG guide on secure bare-metal firmware development in C for constrained embedded microcontrollers.</description>
+			</item>
+			<item>
+				<title>New Technical Guide: Securing the JTAG/SWD Interface for Embedded Systems</title>
+				<link>https://blog.h2lab.org/stigs/new-technical-guide-jtag-swd-security/</link>
+				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/new-technical-guide-jtag-swd-security/</guid>
+				<description>Publication of a new STIG guide dedicated to securing JTAG/SWD debug interfaces in critical embedded systems.</description>
+			</item>
+			<item>
+				<title>New Technical Guide: Physical Protection Mechanisms for Embedded Systems</title>
+				<link>https://blog.h2lab.org/stigs/new-technical-guide-physical-protection-mechanisms/</link>
+				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/new-technical-guide-physical-protection-mechanisms/</guid>
+				<description>Publication of a new STIG guide on physical protection mechanisms for embedded equipment, from enclosure security to secure boot.</description>
+			</item>
 			<item>
 				<title>New Technical Guide: Secure update of embedded systems</title>
 				<link>https://blog.h2lab.org/stigs/nouveau-guide-technique-flipflop/</link>

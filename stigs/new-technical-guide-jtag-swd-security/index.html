@@ -12,17 +12,17 @@
 <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<title itemprop="name"> Events | Hardware Hacking Laboratory 
+<title itemprop="name"> New Technical Guide: Securing the JTAG/SWD Interface for Embedded Systems | Hardware Hacking Laboratory 
 </title>
-<meta name="description" content="Open hardware and embedded systems research, tooling, and publications from H2Lab." />
-<meta property="og:title" content="Events | Hardware Hacking Laboratory" />
-<meta name="twitter:title" content="Events | Hardware Hacking Laboratory" />
-<meta itemprop="name" content="Events | Hardware Hacking Laboratory" />
-<meta name="application-name" content="Events | Hardware Hacking Laboratory" />
+<meta name="description" content="STIG Guide providing a technically actionable, auditable framework to secure debug interfaces across the whole lifecycle of embedded equipment." />
+<meta property="og:title" content="New Technical Guide: Securing the JTAG/SWD Interface for Embedded Systems | Hardware Hacking Laboratory" />
+<meta name="twitter:title" content="New Technical Guide: Securing the JTAG/SWD Interface for Embedded Systems | Hardware Hacking Laboratory" />
+<meta itemprop="name" content="New Technical Guide: Securing the JTAG/SWD Interface for Embedded Systems | Hardware Hacking Laboratory" />
+<meta name="application-name" content="New Technical Guide: Securing the JTAG/SWD Interface for Embedded Systems | Hardware Hacking Laboratory" />
 <meta property="og:description"
-      content="Open hardware and embedded systems research, tooling, and publications from H2Lab." />
+      content="STIG Guide providing a technically actionable, auditable framework to secure debug interfaces across the whole lifecycle of embedded equipment." />
 <meta property="og:site_name" content="Hardware Hacking Laboratory" />
-<meta property="og:url" content="https://blog.h2lab.org/events/" />
+<meta property="og:url" content="https://blog.h2lab.org/stigs/new-technical-guide-jtag-swd-security/" />
 <meta property="og:locale" content="en">
 <meta property="og:image" content="/images/tailbliss-cover.png" />
 <meta property="og:image:secure_url" content="https://blog.h2lab.org/images/tailbliss-cover.png" />
@@ -135,7 +135,7 @@
   <header class="mb-4 bg-primary-600">
     <span class="py-96">
       <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
-        Events
+        New Technical Guide: Securing the JTAG/SWD Interface for Embedded Systems
       </h1>
     </span>
   </header>
@@ -146,14 +146,29 @@
   </div>
   
   <div class="px-6 pt-6 pb-16 mx-auto prose prose-h1:text-2xl dark:text-white">
-    <p>Discover upcoming H2Lab events, including workshops, talks, and community sessions on embedded systems, hardware security, and open hardware.</p>
-<h2 id="what-to-expect">What to expect</h2>
+    <p>We are pleased to share the publication of a new technical guide (STIG) dedicated to securing JTAG/SWD debug interfaces in critical embedded systems.</p>
+<p>This document provides an implementation framework that is technically actionable, operable in an industrial OT context, and auditable, covering the full lifecycle of debug security: design, integration, production, deployment, and maintenance. It explicitly addresses the tension between maintainability and cyber robustness, following a defense-in-depth and operational traceability approach.</p>
+<p>The central defensive assumption of the guide is that partial physical access is plausible during maintenance operations, and must therefore be controlled rather than assumed impossible.</p>
+<h2 id="threat-model">Threat Model</h2>
+<p>The guide considers a range of attacker profiles relevant to debug interface abuse:</p>
 <ul>
-<li>Technical workshops and hands-on sessions</li>
-<li>Public talks and conference interventions</li>
-<li>Community meetups and collaboration opportunities</li>
+<li>a local attacker with opportunistic physical access</li>
+<li>a malicious insider or subcontractor</li>
+<li>an equipped attacker able to combine debug access, firmware extraction, and transient faults</li>
 </ul>
-<p>Check back regularly for the next announcements.</p>
+<h2 id="guide-objectives">Guide Objectives</h2>
+<p>The guide aims to:</p>
+<ul>
+<li>cover board and boot/debug architecture design, industrialization, deployment, and maintenance</li>
+<li>translate security principles into factory settings such as fuses, lock bits, and batch tests</li>
+<li>define supervision and access control mechanisms for debug interfaces in operation</li>
+<li>provide verification criteria to demonstrate effective compliance and operational resilience</li>
+</ul>
+<p>The guide is designed for a two-level reading, aligning strategic architecture and risk governance decisions with concrete implementation-level settings and audit evidence, so that hardware, firmware, cybersecurity, and OT operations teams can work from the same reference.</p>
+<h2 id="download-the-guide">Download the Guide</h2>
+<p><strong>English version:</strong> <a href="/doc/h2lab-stig-jtag-001-en.pdf">Download Technical Guide (PDF)</a></p>
+<p><strong>French version:</strong> <a href="/doc/h2lab-stig-jtag-001.pdf">Télécharger le guide technique (PDF)</a></p>
+<p>The document is published under a Free License.</p>
 
   </div>
 </article>

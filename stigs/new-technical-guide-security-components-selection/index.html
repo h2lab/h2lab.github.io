@@ -12,17 +12,17 @@
 <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<title itemprop="name"> Events | Hardware Hacking Laboratory 
+<title itemprop="name"> New Technical Guide: A Methodology for Selecting Security Components | Hardware Hacking Laboratory 
 </title>
-<meta name="description" content="Open hardware and embedded systems research, tooling, and publications from H2Lab." />
-<meta property="og:title" content="Events | Hardware Hacking Laboratory" />
-<meta name="twitter:title" content="Events | Hardware Hacking Laboratory" />
-<meta itemprop="name" content="Events | Hardware Hacking Laboratory" />
-<meta name="application-name" content="Events | Hardware Hacking Laboratory" />
+<meta name="description" content="STIG Guide covering the selection, integration, and audit of SE, TPM, TEE, and HSE building blocks across the embedded product lifecycle." />
+<meta property="og:title" content="New Technical Guide: A Methodology for Selecting Security Components | Hardware Hacking Laboratory" />
+<meta name="twitter:title" content="New Technical Guide: A Methodology for Selecting Security Components | Hardware Hacking Laboratory" />
+<meta itemprop="name" content="New Technical Guide: A Methodology for Selecting Security Components | Hardware Hacking Laboratory" />
+<meta name="application-name" content="New Technical Guide: A Methodology for Selecting Security Components | Hardware Hacking Laboratory" />
 <meta property="og:description"
-      content="Open hardware and embedded systems research, tooling, and publications from H2Lab." />
+      content="STIG Guide covering the selection, integration, and audit of SE, TPM, TEE, and HSE building blocks across the embedded product lifecycle." />
 <meta property="og:site_name" content="Hardware Hacking Laboratory" />
-<meta property="og:url" content="https://blog.h2lab.org/events/" />
+<meta property="og:url" content="https://blog.h2lab.org/stigs/new-technical-guide-security-components-selection/" />
 <meta property="og:locale" content="en">
 <meta property="og:image" content="/images/tailbliss-cover.png" />
 <meta property="og:image:secure_url" content="https://blog.h2lab.org/images/tailbliss-cover.png" />
@@ -135,7 +135,7 @@
   <header class="mb-4 bg-primary-600">
     <span class="py-96">
       <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
-        Events
+        New Technical Guide: A Methodology for Selecting Security Components
       </h1>
     </span>
   </header>
@@ -146,14 +146,30 @@
   </div>
   
   <div class="px-6 pt-6 pb-16 mx-auto prose prose-h1:text-2xl dark:text-white">
-    <p>Discover upcoming H2Lab events, including workshops, talks, and community sessions on embedded systems, hardware security, and open hardware.</p>
-<h2 id="what-to-expect">What to expect</h2>
+    <p>We are pleased to share the publication of a new technical guide (STIG) providing a complete methodology for selecting, integrating, and auditing hardware security building blocks such as SE, TPM, TEE, and HSE in embedded products.</p>
+<p>The guide has a twofold objective: reduce technical risk related to cloning, key extraction, boot compromise, and application fraud, while demonstrating compliance with applicable security frameworks. Each chapter links technical choices to threats observed in the state of the art, such as side channels, fault injection, micro-architectural attacks, and supply-chain attacks, then maps the resulting controls to recognized standards and guides.</p>
+<p>It applies to consumer products as well as industrial and critical environments, with the assurance level adapted accordingly, for example EAL, FIPS, or IEC 62443.</p>
+<h2 id="threat-assumptions">Threat Assumptions</h2>
+<p>The guide takes into account a broad range of attacker profiles:</p>
 <ul>
-<li>Technical workshops and hands-on sessions</li>
-<li>Public talks and conference interventions</li>
-<li>Community meetups and collaboration opportunities</li>
+<li>an opportunistic attacker with local access to the product</li>
+<li>an experienced attacker with laboratory-grade equipment</li>
+<li>a supply-chain attacker using modified firmware, cloned components, or compromised CI/CD</li>
+<li>a remote attacker exploiting software or protocol vulnerabilities</li>
 </ul>
-<p>Check back regularly for the next announcements.</p>
+<h2 id="guide-objectives">Guide Objectives</h2>
+<p>The guide addresses the full product life cycle, from design and industrialization to deployment, operation, and maintenance, and aims to:</p>
+<ul>
+<li>provide selection criteria for hardware security building blocks adapted to the target threat model</li>
+<li>define provisioning, personalization, and testing practices for industrialization</li>
+<li>specify identity, enrollment, and commissioning practices for deployment</li>
+<li>describe monitoring, key rotation, and incident response practices for operation, along with secure update and decommissioning for maintenance</li>
+</ul>
+<p>This life-cycle approach is aligned with the security requirements of NIST and European frameworks, and addresses low-power, long-lifetime architectures exposed to the Harvest Now, Decrypt Later risk for long-lived data.</p>
+<h2 id="download-the-guide">Download the Guide</h2>
+<p><strong>English version:</strong> <a href="/doc/h2lab-stig-seccomp-001-en.pdf">Download Technical Guide (PDF)</a></p>
+<p><strong>French version:</strong> <a href="/doc/h2lab-stig-seccomp-001.pdf">Télécharger le guide technique (PDF)</a></p>
+<p>The document is published under a Free License.</p>
 
   </div>
 </article>

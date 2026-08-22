@@ -3,27 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.h2lab.org/categories/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/dual-bank/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/embedded-cybersecurity/</loc>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/hardwaresecurity/</loc>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/stigs/new-technical-guide-security-components-selection/</loc>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/categories/stigs/</loc>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/stigs/</loc>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/</loc>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/stigs/new-technical-guide-secure-embedded-c-development/</loc>
+    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/jtag/</loc>
+    <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/stigs/new-technical-guide-jtag-swd-security/</loc>
+    <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/stigs/new-technical-guide-physical-protection-mechanisms/</loc>
+    <lastmod>2026-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/dual-bank/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/stigs/nouveau-guide-technique-flipflop/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/secure-update/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/categories/stigs/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/stigs/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/stigs/</loc>
@@ -57,12 +75,6 @@
     <lastmod>2026-06-23T20:05:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/events/h2lab-sponsor-officiel-lehack-2026/</loc>
-    <lastmod>2026-06-23T20:05:00+02:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/hardwaresecurity/</loc>
-    <lastmod>2026-06-23T20:05:00+02:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/jtag/</loc>
     <lastmod>2026-06-23T20:05:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/lehack2026/</loc>

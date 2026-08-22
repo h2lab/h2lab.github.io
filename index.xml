@@ -10,9 +10,37 @@
 		
 		
 		
-			<lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://blog.h2lab.org/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>New Technical Guide: A Methodology for Selecting Security Components</title>
+				<link>https://blog.h2lab.org/stigs/new-technical-guide-security-components-selection/</link>
+				<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/new-technical-guide-security-components-selection/</guid>
+				<description>Publication of a new STIG guide providing a complete methodology for selecting, integrating, and auditing hardware security building blocks in embedded products.</description>
+			</item>
+			<item>
+				<title>New Technical Guide: Secure Bare-Metal Firmware Development in C</title>
+				<link>https://blog.h2lab.org/stigs/new-technical-guide-secure-embedded-c-development/</link>
+				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/new-technical-guide-secure-embedded-c-development/</guid>
+				<description>Publication of a new STIG guide on secure bare-metal firmware development in C for constrained embedded microcontrollers.</description>
+			</item>
+			<item>
+				<title>New Technical Guide: Securing the JTAG/SWD Interface for Embedded Systems</title>
+				<link>https://blog.h2lab.org/stigs/new-technical-guide-jtag-swd-security/</link>
+				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/new-technical-guide-jtag-swd-security/</guid>
+				<description>Publication of a new STIG guide dedicated to securing JTAG/SWD debug interfaces in critical embedded systems.</description>
+			</item>
+			<item>
+				<title>New Technical Guide: Physical Protection Mechanisms for Embedded Systems</title>
+				<link>https://blog.h2lab.org/stigs/new-technical-guide-physical-protection-mechanisms/</link>
+				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/new-technical-guide-physical-protection-mechanisms/</guid>
+				<description>Publication of a new STIG guide on physical protection mechanisms for embedded equipment, from enclosure security to secure boot.</description>
+			</item>
 			<item>
 				<title>New Technical Guide: Secure update of embedded systems</title>
 				<link>https://blog.h2lab.org/stigs/nouveau-guide-technique-flipflop/</link>
@@ -33,6 +61,13 @@
 				<pubDate>Fri, 03 Jul 2026 14:30:00 +0200</pubDate>
 				<guid>https://blog.h2lab.org/contact/</guid>
 				<description>&lt;p&gt;H2Lab welcomes conversations about research, training, workshops, and open hardware collaborations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;typical-topics&#34;&gt;Typical topics&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Embedded systems and hardware security&lt;/li&gt;&#xA;&lt;li&gt;Open hardware design and prototyping&lt;/li&gt;&#xA;&lt;li&gt;Educational initiatives and technical mentoring&lt;/li&gt;&#xA;&lt;li&gt;Community, association, and partnership requests&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;contact-page&#34;&gt;Contact page&lt;/h2&gt;&#xA;&lt;p&gt;Use this page to publish your preferred public contact channels, such as email, a contact form, or social links.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Events</title>
+				<link>https://blog.h2lab.org/events/</link>
+				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/events/</guid>
+				<description>&lt;p&gt;Discover upcoming H2Lab events, including workshops, talks, and community sessions on embedded systems, hardware security, and open hardware.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to expect&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technical workshops and hands-on sessions&lt;/li&gt;&#xA;&lt;li&gt;Public talks and conference interventions&lt;/li&gt;&#xA;&lt;li&gt;Community meetups and collaboration opportunities&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Check back regularly for the next announcements.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>New Technical Guide: Physical Memory Protection for Embedded Systems</title>

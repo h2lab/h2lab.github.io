@@ -12,17 +12,17 @@
 <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<title itemprop="name"> Events | Hardware Hacking Laboratory 
+<title itemprop="name"> New Technical Guide: Physical Protection Mechanisms for Embedded Systems | Hardware Hacking Laboratory 
 </title>
-<meta name="description" content="Open hardware and embedded systems research, tooling, and publications from H2Lab." />
-<meta property="og:title" content="Events | Hardware Hacking Laboratory" />
-<meta name="twitter:title" content="Events | Hardware Hacking Laboratory" />
-<meta itemprop="name" content="Events | Hardware Hacking Laboratory" />
-<meta name="application-name" content="Events | Hardware Hacking Laboratory" />
+<meta name="description" content="STIG Guide covering physical attack surfaces, countermeasures, and trust mechanisms for embedded systems, mapped to Common Criteria attacker levels." />
+<meta property="og:title" content="New Technical Guide: Physical Protection Mechanisms for Embedded Systems | Hardware Hacking Laboratory" />
+<meta name="twitter:title" content="New Technical Guide: Physical Protection Mechanisms for Embedded Systems | Hardware Hacking Laboratory" />
+<meta itemprop="name" content="New Technical Guide: Physical Protection Mechanisms for Embedded Systems | Hardware Hacking Laboratory" />
+<meta name="application-name" content="New Technical Guide: Physical Protection Mechanisms for Embedded Systems | Hardware Hacking Laboratory" />
 <meta property="og:description"
-      content="Open hardware and embedded systems research, tooling, and publications from H2Lab." />
+      content="STIG Guide covering physical attack surfaces, countermeasures, and trust mechanisms for embedded systems, mapped to Common Criteria attacker levels." />
 <meta property="og:site_name" content="Hardware Hacking Laboratory" />
-<meta property="og:url" content="https://blog.h2lab.org/events/" />
+<meta property="og:url" content="https://blog.h2lab.org/stigs/new-technical-guide-physical-protection-mechanisms/" />
 <meta property="og:locale" content="en">
 <meta property="og:image" content="/images/tailbliss-cover.png" />
 <meta property="og:image:secure_url" content="https://blog.h2lab.org/images/tailbliss-cover.png" />
@@ -135,7 +135,7 @@
   <header class="mb-4 bg-primary-600">
     <span class="py-96">
       <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
-        Events
+        New Technical Guide: Physical Protection Mechanisms for Embedded Systems
       </h1>
     </span>
   </header>
@@ -146,14 +146,30 @@
   </div>
   
   <div class="px-6 pt-6 pb-16 mx-auto prose prose-h1:text-2xl dark:text-white">
-    <p>Discover upcoming H2Lab events, including workshops, talks, and community sessions on embedded systems, hardware security, and open hardware.</p>
-<h2 id="what-to-expect">What to expect</h2>
+    <p>We are pleased to share the publication of a new technical guide (STIG) dedicated to physical protection mechanisms for embedded systems.</p>
+<p>This guide formalizes a set of technical requirements applicable to the design and cybersecurity assessment of embedded equipment based on SoC, microcontroller, or FPGA. It covers the hardware and software chain, from physical access to the equipment down to secure boot mechanisms.</p>
+<p>Each requirement is mapped to a minimum expected attacker level, using the Common Criteria AVA_VAN scale (Basic, Enhanced-Basic, Moderate, High), so that protection choices can be justified against a realistic and auditable threat model.</p>
+<h2 id="reference-threats">Reference Threats</h2>
+<p>The guide is built around four reference threats that recur throughout the analysis:</p>
 <ul>
-<li>Technical workshops and hands-on sessions</li>
-<li>Public talks and conference interventions</li>
-<li>Community meetups and collaboration opportunities</li>
+<li>unauthorized opening of the enclosure</li>
+<li>extraction or replacement of components</li>
+<li>abuse of debug and test interfaces</li>
+<li>compromise of update or boot mechanisms</li>
 </ul>
-<p>Check back regularly for the next announcements.</p>
+<h2 id="guide-objectives">Guide Objectives</h2>
+<p>The guide aims to:</p>
+<ul>
+<li>cover physical and logical interfaces accessible in a laboratory context</li>
+<li>describe physical protection countermeasures, including seals, sensors, and erasure mechanisms</li>
+<li>detail software trust mechanisms such as secure boot, TEE, and operational/security maintenance</li>
+<li>associate each requirement with the attacker profile it is designed to resist</li>
+</ul>
+<p>It provides an operational summary with guiding principles and a prioritization of actions, so that teams with limited resources can focus first on the countermeasures with the highest impact.</p>
+<h2 id="download-the-guide">Download the Guide</h2>
+<p><strong>English version:</strong> <a href="/doc/h2lab-stig-phy-001-en.pdf">Download Technical Guide (PDF)</a></p>
+<p><strong>French version:</strong> <a href="/doc/h2lab-stig-phy-001.pdf">Télécharger le guide technique (PDF)</a></p>
+<p>The document is published under a Free License.</p>
 
   </div>
 </article>
