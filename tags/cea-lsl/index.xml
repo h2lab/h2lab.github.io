@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>CEA-LSL on Hardware Hacking Laboratory</title>
+		<link>https://blog.h2lab.org/tags/cea-lsl/</link>
+		<description>Recent content in CEA-LSL on Hardware Hacking Laboratory</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 08 Apr 2026 20:05:00 +0200</lastBuildDate>
+		
+			<atom:link href="https://blog.h2lab.org/tags/cea-lsl/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>H2Lab présente ces travaux sur Camelot-OS à la plénière SecurEval</title>
+				<link>https://blog.h2lab.org/events/h2lab-secureval-2026-pleniere/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/events/h2lab-secureval-2026-pleniere/</guid>
+				<description>H2Lab présente ses travaux sur la protection anti-fautes du noyau Sentry, au sein de Camelot-OS, lors de la plénière du projet PEPR SecurEval.</description>
+			</item>
+	</channel>
+</rss>

@@ -98,6 +98,69 @@
 				<description></description>
 			</item>
 			<item>
+				<title>BinSec</title>
+				<link>https://blog.h2lab.org/tags/binsec/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/binsec/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Camelot-OS</title>
+				<link>https://blog.h2lab.org/tags/camelot-os/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/camelot-os/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>CEA-LSL</title>
+				<link>https://blog.h2lab.org/tags/cea-lsl/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/cea-lsl/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Defensive-Programming</title>
+				<link>https://blog.h2lab.org/tags/defensive-programming/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/defensive-programming/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Formal-Proof</title>
+				<link>https://blog.h2lab.org/tags/formal-proof/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/formal-proof/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Frama-C</title>
+				<link>https://blog.h2lab.org/tags/frama-c/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/frama-c/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>PePR SecurEval</title>
+				<link>https://blog.h2lab.org/tags/pepr-secureval/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/pepr-secureval/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Security</title>
+				<link>https://blog.h2lab.org/tags/security/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/security/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sentry-Kernel</title>
+				<link>https://blog.h2lab.org/tags/sentry-kernel/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/sentry-kernel/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Blog</title>
 				<link>https://blog.h2lab.org/tags/blog/</link>
 				<pubDate>Sat, 18 Jun 2022 11:10:36 +0800</pubDate>

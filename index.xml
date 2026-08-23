@@ -63,13 +63,6 @@
 				<description>&lt;p&gt;H2Lab welcomes conversations about research, training, workshops, and open hardware collaborations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;typical-topics&#34;&gt;Typical topics&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Embedded systems and hardware security&lt;/li&gt;&#xA;&lt;li&gt;Open hardware design and prototyping&lt;/li&gt;&#xA;&lt;li&gt;Educational initiatives and technical mentoring&lt;/li&gt;&#xA;&lt;li&gt;Community, association, and partnership requests&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;contact-page&#34;&gt;Contact page&lt;/h2&gt;&#xA;&lt;p&gt;Use this page to publish your preferred public contact channels, such as email, a contact form, or social links.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Events</title>
-				<link>https://blog.h2lab.org/events/</link>
-				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>https://blog.h2lab.org/events/</guid>
-				<description>&lt;p&gt;Discover upcoming H2Lab events, including workshops, talks, and community sessions on embedded systems, hardware security, and open hardware.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to expect&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technical workshops and hands-on sessions&lt;/li&gt;&#xA;&lt;li&gt;Public talks and conference interventions&lt;/li&gt;&#xA;&lt;li&gt;Community meetups and collaboration opportunities&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Check back regularly for the next announcements.&lt;/p&gt;</description>
-			</item>
-			<item>
 				<title>New Technical Guide: Physical Memory Protection for Embedded Systems</title>
 				<link>https://blog.h2lab.org/stigs/nouveau-guide-technique-protection-memoire-physique/</link>
 				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
@@ -81,7 +74,14 @@
 				<link>https://blog.h2lab.org/events/h2lab-sponsor-officiel-lehack-2026/</link>
 				<pubDate>Tue, 23 Jun 2026 20:05:00 +0200</pubDate>
 				<guid>https://blog.h2lab.org/events/h2lab-sponsor-officiel-lehack-2026/</guid>
-				<description>H2Lab sera présent à LeHack 2026 et animera, avec Twisted Wires, un workshop technique sur le contournement des protections JTAG.</description>
+				<description>H2Lab est présent à LeHack 2026 et animera, avec Twisted Wires, un workshop technique sur le contournement des protections JTAG.</description>
+			</item>
+			<item>
+				<title>H2Lab présente ces travaux sur Camelot-OS à la plénière SecurEval</title>
+				<link>https://blog.h2lab.org/events/h2lab-secureval-2026-pleniere/</link>
+				<pubDate>Wed, 08 Apr 2026 20:05:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/events/h2lab-secureval-2026-pleniere/</guid>
+				<description>H2Lab présente ses travaux sur la protection anti-fautes du noyau Sentry, au sein de Camelot-OS, lors de la plénière du projet PEPR SecurEval.</description>
 			</item>
 			<item>
 				<title>Blog Post 1</title>
