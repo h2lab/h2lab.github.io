@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Fri, 11 Sep 2026 09:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="https://blog.h2lab.org/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>FramaCovr: from Frama-C coverage to the gcovr format</title>
+				<link>https://blog.h2lab.org/blog/framacovr-rte-coverage/</link>
+				<pubDate>Fri, 11 Sep 2026 09:00:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/blog/framacovr-rte-coverage/</guid>
+				<description>H2Lab releases FramaCovr, a tool that converts Frama-C metrics coverage reports into the gcovr format.</description>
+			</item>
 			<item>
 				<title>New Technical Guide: A Methodology for Selecting Security Components</title>
 				<link>https://blog.h2lab.org/stigs/new-technical-guide-security-components-selection/</link>
