@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Tooling on Hardware Hacking Laboratory</title>
-		<link>https://blog.h2lab.org/tags/tooling/</link>
-		<description>Recent content in Tooling on Hardware Hacking Laboratory</description>
+		<title>Device-Tree on Hardware Hacking Laboratory</title>
+		<link>https://blog.h2lab.org/tags/device-tree/</link>
+		<description>Recent content in Device-Tree on Hardware Hacking Laboratory</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,20 +12,13 @@
 		
 			<lastBuildDate>Wed, 23 Sep 2026 09:00:00 +0200</lastBuildDate>
 		
-			<atom:link href="https://blog.h2lab.org/tags/tooling/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://blog.h2lab.org/tags/device-tree/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>pySvdGenerator: generating CMSIS-SVD files from a device tree and a reference manual</title>
 				<link>https://blog.h2lab.org/blog/pysvdgenerator-svd-files/</link>
 				<pubDate>Wed, 23 Sep 2026 09:00:00 +0200</pubDate>
 				<guid>https://blog.h2lab.org/blog/pysvdgenerator-svd-files/</guid>
 				<description>H2Lab releases pySvdGenerator, a tool that generates CMSIS-SVD files by combining a Linux device tree with a SoC reference manual.</description>
-			</item>
-			<item>
-				<title>FramaCovr: from Frama-C coverage to the gcovr format</title>
-				<link>https://blog.h2lab.org/blog/framacovr-rte-coverage/</link>
-				<pubDate>Fri, 11 Sep 2026 09:00:00 +0200</pubDate>
-				<guid>https://blog.h2lab.org/blog/framacovr-rte-coverage/</guid>
-				<description>H2Lab releases FramaCovr, a tool that converts Frama-C metrics coverage reports into the gcovr format.</description>
 			</item>
 	</channel>
 </rss>

@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 11 Sep 2026 09:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Wed, 23 Sep 2026 09:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="https://blog.h2lab.org/tags/embedded-cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>pySvdGenerator: generating CMSIS-SVD files from a device tree and a reference manual</title>
+				<link>https://blog.h2lab.org/blog/pysvdgenerator-svd-files/</link>
+				<pubDate>Wed, 23 Sep 2026 09:00:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/blog/pysvdgenerator-svd-files/</guid>
+				<description>H2Lab releases pySvdGenerator, a tool that generates CMSIS-SVD files by combining a Linux device tree with a SoC reference manual.</description>
+			</item>
 			<item>
 				<title>FramaCovr: from Frama-C coverage to the gcovr format</title>
 				<link>https://blog.h2lab.org/blog/framacovr-rte-coverage/</link>
