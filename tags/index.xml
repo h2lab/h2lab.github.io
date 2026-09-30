@@ -10,9 +10,58 @@
 		
 		
 		
-			<lastBuildDate>Wed, 23 Sep 2026 09:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Wed, 30 Sep 2026 09:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="https://blog.h2lab.org/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cortex-M</title>
+				<link>https://blog.h2lab.org/tags/cortex-m/</link>
+				<pubDate>Wed, 30 Sep 2026 09:00:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/cortex-m/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Debugging</title>
+				<link>https://blog.h2lab.org/tags/debugging/</link>
+				<pubDate>Wed, 30 Sep 2026 09:00:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/debugging/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Embedded-Cybersecurity</title>
+				<link>https://blog.h2lab.org/tags/embedded-cybersecurity/</link>
+				<pubDate>Wed, 30 Sep 2026 09:00:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/embedded-cybersecurity/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gdb</title>
+				<link>https://blog.h2lab.org/tags/gdb/</link>
+				<pubDate>Wed, 30 Sep 2026 09:00:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/gdb/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Pygdbtoolkit</title>
+				<link>https://blog.h2lab.org/tags/pygdbtoolkit/</link>
+				<pubDate>Wed, 30 Sep 2026 09:00:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/pygdbtoolkit/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Python</title>
+				<link>https://blog.h2lab.org/tags/python/</link>
+				<pubDate>Wed, 30 Sep 2026 09:00:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/python/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tooling</title>
+				<link>https://blog.h2lab.org/tags/tooling/</link>
+				<pubDate>Wed, 30 Sep 2026 09:00:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/tags/tooling/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Cmsis</title>
 				<link>https://blog.h2lab.org/tags/cmsis/</link>
@@ -28,13 +77,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Embedded-Cybersecurity</title>
-				<link>https://blog.h2lab.org/tags/embedded-cybersecurity/</link>
-				<pubDate>Wed, 23 Sep 2026 09:00:00 +0200</pubDate>
-				<guid>https://blog.h2lab.org/tags/embedded-cybersecurity/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Pysvdgenerator</title>
 				<link>https://blog.h2lab.org/tags/pysvdgenerator/</link>
 				<pubDate>Wed, 23 Sep 2026 09:00:00 +0200</pubDate>
@@ -42,24 +84,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Python</title>
-				<link>https://blog.h2lab.org/tags/python/</link>
-				<pubDate>Wed, 23 Sep 2026 09:00:00 +0200</pubDate>
-				<guid>https://blog.h2lab.org/tags/python/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Svd</title>
 				<link>https://blog.h2lab.org/tags/svd/</link>
 				<pubDate>Wed, 23 Sep 2026 09:00:00 +0200</pubDate>
 				<guid>https://blog.h2lab.org/tags/svd/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Tooling</title>
-				<link>https://blog.h2lab.org/tags/tooling/</link>
-				<pubDate>Wed, 23 Sep 2026 09:00:00 +0200</pubDate>
-				<guid>https://blog.h2lab.org/tags/tooling/</guid>
 				<description></description>
 			</item>
 			<item>

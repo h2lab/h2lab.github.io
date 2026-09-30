@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 23 Sep 2026 09:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Wed, 30 Sep 2026 09:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="https://blog.h2lab.org/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>pyGdbToolkit: embedded debugging and security audits from GDB</title>
+				<link>https://blog.h2lab.org/blog/pygdbtoolkit-embedded-debugging/</link>
+				<pubDate>Wed, 30 Sep 2026 09:00:00 +0200</pubDate>
+				<guid>https://blog.h2lab.org/blog/pygdbtoolkit-embedded-debugging/</guid>
+				<description>H2Lab releases pyGdbToolkit, a set of GDB commands for inspecting and auditing Arm Cortex-M targets.</description>
+			</item>
 			<item>
 				<title>pySvdGenerator: generating CMSIS-SVD files from a device tree and a reference manual</title>
 				<link>https://blog.h2lab.org/blog/pysvdgenerator-svd-files/</link>

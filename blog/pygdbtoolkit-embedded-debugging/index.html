@@ -12,17 +12,17 @@
 <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<title itemprop="name"> Categories | Hardware Hacking Laboratory 
+<title itemprop="name"> pyGdbToolkit: embedded debugging and security audits from GDB | Hardware Hacking Laboratory 
 </title>
-<meta name="description" content="Open hardware and embedded systems research, tooling, and publications from H2Lab." />
-<meta property="og:title" content="Categories | Hardware Hacking Laboratory" />
-<meta name="twitter:title" content="Categories | Hardware Hacking Laboratory" />
-<meta itemprop="name" content="Categories | Hardware Hacking Laboratory" />
-<meta name="application-name" content="Categories | Hardware Hacking Laboratory" />
+<meta name="description" content="Introducing pyGdbToolkit, an Open-Source toolkit that brings Cortex-M fault analysis, SVD register inspection, RTOS visibility, and security checks into GDB." />
+<meta property="og:title" content="pyGdbToolkit: embedded debugging and security audits from GDB | Hardware Hacking Laboratory" />
+<meta name="twitter:title" content="pyGdbToolkit: embedded debugging and security audits from GDB | Hardware Hacking Laboratory" />
+<meta itemprop="name" content="pyGdbToolkit: embedded debugging and security audits from GDB | Hardware Hacking Laboratory" />
+<meta name="application-name" content="pyGdbToolkit: embedded debugging and security audits from GDB | Hardware Hacking Laboratory" />
 <meta property="og:description"
-      content="Open hardware and embedded systems research, tooling, and publications from H2Lab." />
+      content="Introducing pyGdbToolkit, an Open-Source toolkit that brings Cortex-M fault analysis, SVD register inspection, RTOS visibility, and security checks into GDB." />
 <meta property="og:site_name" content="Hardware Hacking Laboratory" />
-<meta property="og:url" content="https://blog.h2lab.org/categories/" />
+<meta property="og:url" content="https://blog.h2lab.org/blog/pygdbtoolkit-embedded-debugging/" />
 <meta property="og:locale" content="en">
 <meta property="og:image" content="/images/tailbliss-cover.png" />
 <meta property="og:image:secure_url" content="https://blog.h2lab.org/images/tailbliss-cover.png" />
@@ -131,193 +131,47 @@
 </div>
 
     
-<main>
-    <article>
-        <header class="mb-4 bg-primary-600">
-            <span class="py-96">
-                <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
-                    Categories
-                </h1>
-            </span>
-        </header>
-        
-
-        
-        
-            
-        
-        
-        
-
-        <div class="mx-auto max-w-7xl text-gray-900 dark:text-gray-50">
-            <div class="px-4 not-prose">
-                <div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
-                    
-                        <div class="flex overflow-hidden flex-col bg-gray-50 rounded-lg shadow-lg dark:bg-gray-900">
-    <a href="https://blog.h2lab.org/categories/blog/">
-        
-    </a>
-    <div class="p-6">
-        <div class="flex-1">
-            <a href="https://blog.h2lab.org/categories/blog/"
-                class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
-                Blog
-            </a>
-            <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
-                
-            </p>
-        </div>
-        <div class="flex pt-6 font-medium text-primary-600 dark:text-primary-100 text-md">
-            <span class="pr-2 font-black">Tags:</span>
-            <span>
-            </span>
-        </div>
-        <div class="flex items-center mt-6">
-            <div class="flex-shrink-0">
-                <span class="sr-only"></span>
-                
-            </div>
-            <div class="pt-1 ml-3">
-                <p class="text-sm font-medium text-gray-900 dark:text-white">
-                    
-                </p>
-                <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
-                    <time datetime="2026-09-30T09:00:00&#43;02:00">2026-09-30</time>
-                    <span aria-hidden="true">&middot;</span>
-                    <span>0 min read</span>
-                </div>
-            </div>
-        </div>
+<article>
+  <header class="mb-4 bg-primary-600">
+    <span class="py-96">
+      <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
+        pyGdbToolkit: embedded debugging and security audits from GDB
+      </h1>
+    </span>
+  </header>
+  <div class="mx-auto mt-8 mb-2 max-w-5xl">
+    <div class="px-6">
+      
     </div>
-</div>
+  </div>
+  
+  <div class="px-6 pt-6 pb-16 mx-auto prose prose-h1:text-2xl dark:text-white">
+    <p>H2Lab is releasing <strong>pyGdbToolkit</strong>, a collection of GDB commands for embedded debugging and security audits, especially on Arm Cortex-M microcontrollers. The source code is available on <a href="https://github.com/h2lab/pyGdbToolkit">GitHub</a>, and the package is published on <a href="https://pypi.org/project/pyGdbToolkit/">PyPI</a>.</p>
+<h2 id="why-pygdbtoolkit">Why pyGdbToolkit</h2>
+<p>Debugging an embedded target often means moving between GDB, vendor utilities, reference material, and small scripts. pyGdbToolkit brings several useful inspections directly into the GDB session and presents their results as readable reports. It reads target memory through the existing GDB connection, without requiring a separate probe protocol or vendor IDE.</p>
+<h2 id="what-it-provides">What it provides</h2>
+<ul>
+<li><code>lscpu</code> identifies the Cortex-M core and, on supported STM32 devices, reports the documented product line and available device signatures.</li>
+<li><code>fault_info</code> decodes Cortex-M fault status and the stacked exception context; <code>showstack</code> inspects stack frames and layout.</li>
+<li><code>svd</code> loads CMSIS-SVD descriptions to read registers and bit fields, write values, monitor changes, or export a JSON snapshot.</li>
+<li><code>secscan audit</code> checks Cortex-M security configuration, including MPU permissions, exception handlers, TrustZone, and STM32 read-out protection when applicable.</li>
+<li><code>rtos</code> exposes project and task information for Camelot, the currently supported RTOS.</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<p>Install the package in a Python environment compatible with GDB&rsquo;s embedded Python (GDB must be built with Python support):</p>
+<pre tabindex="0"><code>python3 -m pip install pyGdbToolkit
+</code></pre><p>After connecting to and halting the target in GDB, load the commands and inspect the target:</p>
+<pre tabindex="0"><code>(gdb) py import pyGdbToolkit
+(gdb) lscpu
+(gdb) svd load
+(gdb) svd show GPIOA
+(gdb) secscan audit
+</code></pre><p>For fault analysis, run <code>fault_info</code> after the target stops in a fault handler. Use <code>svd read /path/to/device.svd</code> to load a specific SVD file when automatic detection is unavailable. The repository includes a <code>gdbinit</code> example and detailed documentation for each command.</p>
+<h2 id="availability">Availability</h2>
+<p>pyGdbToolkit requires Python 3.12 or newer and GDB with embedded Python support. Its dependencies, <code>requests</code> and <code>rich</code>, are installed with the package. It is distributed under the Apache 2.0 license. Find the source, documentation, and tests on the <a href="https://github.com/h2lab/pyGdbToolkit">GitHub repository</a>, or install it from <a href="https://pypi.org/project/pyGdbToolkit/">PyPI</a>.</p>
 
-                    
-                        <div class="flex overflow-hidden flex-col bg-gray-50 rounded-lg shadow-lg dark:bg-gray-900">
-    <a href="https://blog.h2lab.org/categories/stigs/">
-        
-    </a>
-    <div class="p-6">
-        <div class="flex-1">
-            <a href="https://blog.h2lab.org/categories/stigs/"
-                class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
-                Stigs
-            </a>
-            <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
-                
-            </p>
-        </div>
-        <div class="flex pt-6 font-medium text-primary-600 dark:text-primary-100 text-md">
-            <span class="pr-2 font-black">Tags:</span>
-            <span>
-            </span>
-        </div>
-        <div class="flex items-center mt-6">
-            <div class="flex-shrink-0">
-                <span class="sr-only"></span>
-                
-            </div>
-            <div class="pt-1 ml-3">
-                <p class="text-sm font-medium text-gray-900 dark:text-white">
-                    
-                </p>
-                <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
-                    <time datetime="2026-08-20T00:00:00Z">2026-08-20</time>
-                    <span aria-hidden="true">&middot;</span>
-                    <span>0 min read</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-                    
-                        <div class="flex overflow-hidden flex-col bg-gray-50 rounded-lg shadow-lg dark:bg-gray-900">
-    <a href="https://blog.h2lab.org/categories/events/">
-        
-    </a>
-    <div class="p-6">
-        <div class="flex-1">
-            <a href="https://blog.h2lab.org/categories/events/"
-                class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
-                Events
-            </a>
-            <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
-                
-            </p>
-        </div>
-        <div class="flex pt-6 font-medium text-primary-600 dark:text-primary-100 text-md">
-            <span class="pr-2 font-black">Tags:</span>
-            <span>
-            </span>
-        </div>
-        <div class="flex items-center mt-6">
-            <div class="flex-shrink-0">
-                <span class="sr-only"></span>
-                
-            </div>
-            <div class="pt-1 ml-3">
-                <p class="text-sm font-medium text-gray-900 dark:text-white">
-                    
-                </p>
-                <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
-                    <time datetime="2026-06-23T20:05:00&#43;02:00">2026-06-23</time>
-                    <span aria-hidden="true">&middot;</span>
-                    <span>0 min read</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-                    
-                        <div class="flex overflow-hidden flex-col bg-gray-50 rounded-lg shadow-lg dark:bg-gray-900">
-    <a href="https://blog.h2lab.org/categories/news/">
-        
-    </a>
-    <div class="p-6">
-        <div class="flex-1">
-            <a href="https://blog.h2lab.org/categories/news/"
-                class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
-                News
-            </a>
-            <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
-                
-            </p>
-        </div>
-        <div class="flex pt-6 font-medium text-primary-600 dark:text-primary-100 text-md">
-            <span class="pr-2 font-black">Tags:</span>
-            <span>
-            </span>
-        </div>
-        <div class="flex items-center mt-6">
-            <div class="flex-shrink-0">
-                <span class="sr-only"></span>
-                
-            </div>
-            <div class="pt-1 ml-3">
-                <p class="text-sm font-medium text-gray-900 dark:text-white">
-                    
-                </p>
-                <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
-                    <time datetime="2022-05-18T11:10:36&#43;08:00">2022-05-18</time>
-                    <span aria-hidden="true">&middot;</span>
-                    <span>0 min read</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-                    
-                </div>
-            </div>
-        </div>
-    </article>
-    <div class="mx-auto my-16 max-w-4xl">
-        
-
-    </div>
-</main>
+  </div>
+</article>
 
     <footer class="bg-gray-900">
     <div class="px-4 py-12 mx-auto max-w-7xl">

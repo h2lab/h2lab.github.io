@@ -3,18 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.h2lab.org/categories/blog/</loc>
-    <lastmod>2026-09-23T09:00:00+02:00</lastmod>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/categories/</loc>
-    <lastmod>2026-09-23T09:00:00+02:00</lastmod>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/cortex-m/</loc>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/debugging/</loc>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/embedded-cybersecurity/</loc>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/gdb/</loc>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/pygdbtoolkit/</loc>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/blog/pygdbtoolkit-embedded-debugging/</loc>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/python/</loc>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/</loc>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/tooling/</loc>
+    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/cmsis/</loc>
     <lastmod>2026-09-23T09:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/device-tree/</loc>
-    <lastmod>2026-09-23T09:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/embedded-cybersecurity/</loc>
     <lastmod>2026-09-23T09:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/pysvdgenerator/</loc>
@@ -23,16 +47,7 @@
     <loc>https://blog.h2lab.org/blog/pysvdgenerator-svd-files/</loc>
     <lastmod>2026-09-23T09:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://blog.h2lab.org/tags/python/</loc>
-    <lastmod>2026-09-23T09:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://blog.h2lab.org/tags/svd/</loc>
-    <lastmod>2026-09-23T09:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/</loc>
-    <lastmod>2026-09-23T09:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/tooling/</loc>
     <lastmod>2026-09-23T09:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/coverage/</loc>
