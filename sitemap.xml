@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.h2lab.org/categories/blog/</loc>
-    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://blog.h2lab.org/categories/</loc>
+    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/embedded-cybersecurity/</loc>
+    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/hardwaresecurity/</loc>
+    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/microarchitectural-attacks/</loc>
+    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/stigs/new-technical-analysis-microarchitectural-attacks/</loc>
+    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/categories/stigs/</loc>
+    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/stigs/</loc>
+    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/</loc>
+    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/categories/blog/</loc>
     <lastmod>2026-09-30T09:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/cortex-m/</loc>
     <lastmod>2026-09-30T09:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/debugging/</loc>
-    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/embedded-cybersecurity/</loc>
     <lastmod>2026-09-30T09:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/gdb/</loc>
@@ -27,9 +45,6 @@
     <lastmod>2026-09-30T09:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/python/</loc>
-    <lastmod>2026-09-30T09:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/</loc>
     <lastmod>2026-09-30T09:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/tooling/</loc>
@@ -65,16 +80,7 @@
     <loc>https://blog.h2lab.org/tags/gcovr/</loc>
     <lastmod>2026-09-11T09:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://blog.h2lab.org/tags/hardwaresecurity/</loc>
-    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.h2lab.org/stigs/new-technical-guide-security-components-selection/</loc>
-    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/categories/stigs/</loc>
-    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/stigs/</loc>
     <lastmod>2026-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/stigs/new-technical-guide-secure-embedded-c-development/</loc>

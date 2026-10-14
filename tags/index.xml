@@ -10,9 +10,37 @@
 		
 		
 		
-			<lastBuildDate>Wed, 30 Sep 2026 09:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://blog.h2lab.org/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Embedded-Cybersecurity</title>
+				<link>https://blog.h2lab.org/tags/embedded-cybersecurity/</link>
+				<pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/tags/embedded-cybersecurity/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Hardwaresecurity</title>
+				<link>https://blog.h2lab.org/tags/hardwaresecurity/</link>
+				<pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/tags/hardwaresecurity/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Microarchitectural-Attacks</title>
+				<link>https://blog.h2lab.org/tags/microarchitectural-attacks/</link>
+				<pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/tags/microarchitectural-attacks/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Stigs</title>
+				<link>https://blog.h2lab.org/tags/stigs/</link>
+				<pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/tags/stigs/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Cortex-M</title>
 				<link>https://blog.h2lab.org/tags/cortex-m/</link>
@@ -25,13 +53,6 @@
 				<link>https://blog.h2lab.org/tags/debugging/</link>
 				<pubDate>Wed, 30 Sep 2026 09:00:00 +0200</pubDate>
 				<guid>https://blog.h2lab.org/tags/debugging/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Embedded-Cybersecurity</title>
-				<link>https://blog.h2lab.org/tags/embedded-cybersecurity/</link>
-				<pubDate>Wed, 30 Sep 2026 09:00:00 +0200</pubDate>
-				<guid>https://blog.h2lab.org/tags/embedded-cybersecurity/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -116,20 +137,6 @@
 				<link>https://blog.h2lab.org/tags/gcovr/</link>
 				<pubDate>Fri, 11 Sep 2026 09:00:00 +0200</pubDate>
 				<guid>https://blog.h2lab.org/tags/gcovr/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Hardwaresecurity</title>
-				<link>https://blog.h2lab.org/tags/hardwaresecurity/</link>
-				<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>https://blog.h2lab.org/tags/hardwaresecurity/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Stigs</title>
-				<link>https://blog.h2lab.org/tags/stigs/</link>
-				<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>https://blog.h2lab.org/tags/stigs/</guid>
 				<description></description>
 			</item>
 			<item>

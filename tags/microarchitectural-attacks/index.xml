@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Microarchitectural-Attacks on Hardware Hacking Laboratory</title>
+		<link>https://blog.h2lab.org/tags/microarchitectural-attacks/</link>
+		<description>Recent content in Microarchitectural-Attacks on Hardware Hacking Laboratory</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://blog.h2lab.org/tags/microarchitectural-attacks/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>New Technical Analysis: Understanding Microarchitectural Attacks</title>
+				<link>https://blog.h2lab.org/stigs/new-technical-analysis-microarchitectural-attacks/</link>
+				<pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/new-technical-analysis-microarchitectural-attacks/</guid>
+				<description>Publication of a new technical analysis on microarchitectural attacks, their impact on embedded systems, and the limits of available countermeasures.</description>
+			</item>
+	</channel>
+</rss>
