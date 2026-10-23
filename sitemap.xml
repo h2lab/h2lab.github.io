@@ -3,7 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.h2lab.org/categories/</loc>
-    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/cloud-day/</loc>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/embedded-security/</loc>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/esgi/</loc>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/categories/events/</loc>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/events/</loc>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/events/h2lab-esgi-cloud-day-2026/</loc>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/isolation/</loc>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/microcontrollers/</loc>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/rtos/</loc>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/</loc>
+    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/embedded-cybersecurity/</loc>
     <lastmod>2026-10-14T00:00:00+00:00</lastmod>
@@ -21,9 +51,6 @@
     <lastmod>2026-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/stigs/</loc>
-    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/</loc>
     <lastmod>2026-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/categories/blog/</loc>
@@ -126,12 +153,6 @@
     <lastmod>2026-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/cyberdefense/</loc>
-    <lastmod>2026-06-23T20:05:00+02:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/categories/events/</loc>
-    <lastmod>2026-06-23T20:05:00+02:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/events/</loc>
     <lastmod>2026-06-23T20:05:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/events/h2lab-sponsor-officiel-lehack-2026/</loc>
