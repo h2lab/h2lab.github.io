@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.h2lab.org/categories/</loc>
-    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/embedded-cybersecurity/</loc>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/hardwaresecurity/</loc>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/stigs/new-technical-guide-trustzone-strengths-weaknesses/</loc>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/categories/stigs/</loc>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/stigs/</loc>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/</loc>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.h2lab.org/tags/trustzone/</loc>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/tags/cloud-day/</loc>
     <lastmod>2026-10-21T00:00:00+00:00</lastmod>
@@ -32,25 +53,10 @@
     <loc>https://blog.h2lab.org/tags/rtos/</loc>
     <lastmod>2026-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.h2lab.org/tags/</loc>
-    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/embedded-cybersecurity/</loc>
-    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/hardwaresecurity/</loc>
-    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.h2lab.org/tags/microarchitectural-attacks/</loc>
     <lastmod>2026-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/stigs/new-technical-analysis-microarchitectural-attacks/</loc>
-    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/categories/stigs/</loc>
-    <lastmod>2026-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.h2lab.org/tags/stigs/</loc>
     <lastmod>2026-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.h2lab.org/categories/blog/</loc>

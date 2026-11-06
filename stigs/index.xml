@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://blog.h2lab.org/stigs/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>New Technical Guide: TrustZone, Strengths and Weaknesses</title>
+				<link>https://blog.h2lab.org/stigs/new-technical-guide-trustzone-strengths-weaknesses/</link>
+				<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/stigs/new-technical-guide-trustzone-strengths-weaknesses/</guid>
+				<description>Publication of a new H2Lab technical guide examining TrustZone&amp;rsquo;s security guarantees, architectural limits, and practical assessment for embedded products.</description>
+			</item>
 			<item>
 				<title>New Technical Analysis: Understanding Microarchitectural Attacks</title>
 				<link>https://blog.h2lab.org/stigs/new-technical-analysis-microarchitectural-attacks/</link>
