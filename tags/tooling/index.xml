@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 30 Sep 2026 09:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://blog.h2lab.org/tags/tooling/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>pyGdbToolkit: quickstart</title>
+				<link>https://blog.h2lab.org/projects/pygdbtoolkit/</link>
+				<pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>https://blog.h2lab.org/projects/pygdbtoolkit/</guid>
+				<description>Install pyGdbToolkit from PyPI and explore embedded targets, from manual GDB commands to LLM-assisted audits connecting firmware sources with runtime evidence.</description>
+			</item>
 			<item>
 				<title>pyGdbToolkit: embedded debugging and security audits from GDB</title>
 				<link>https://blog.h2lab.org/blog/pygdbtoolkit-embedded-debugging/</link>

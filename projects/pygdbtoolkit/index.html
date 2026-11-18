@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title itemprop="name"> pyGdbToolkit: quickstart | Hardware Hacking Laboratory 
+</title>
+<meta name="description" content="Get started with pyGdbToolkit: embedded debugging and LLM-assisted security audits that bring firmware source code and target execution into the same investigation." />
+<meta property="og:title" content="pyGdbToolkit: quickstart | Hardware Hacking Laboratory" />
+<meta name="twitter:title" content="pyGdbToolkit: quickstart | Hardware Hacking Laboratory" />
+<meta itemprop="name" content="pyGdbToolkit: quickstart | Hardware Hacking Laboratory" />
+<meta name="application-name" content="pyGdbToolkit: quickstart | Hardware Hacking Laboratory" />
+<meta property="og:description"
+      content="Get started with pyGdbToolkit: embedded debugging and LLM-assisted security audits that bring firmware source code and target execution into the same investigation." />
+<meta property="og:site_name" content="Hardware Hacking Laboratory" />
+<meta property="og:url" content="https://blog.h2lab.org/projects/pygdbtoolkit/" />
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/images/tailbliss-cover.png" />
+<meta property="og:image:secure_url" content="https://blog.h2lab.org/images/tailbliss-cover.png" />
+<meta property="og:type" content="article" />
+
+
+
+<link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+<link href="https://cdn.jsdelivr.net" rel="preconnect" crossorigin="anonymous">
+
+<link href="https://static.cloudflareinsights.com" rel="preconnect" rel="dns-prefetch">
+<link href="https://static.cloudflareinsights.com" crossorigin="anonymous" rel="preconnect">
+
+
+
+
+
+<link href="/images/site-logo.svg" rel="preload" as="image" fetchpriority="high" loading="eager">
+
+
+<link href="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js" as="script" rel="preconnect" rel="dns-prefetch">
+
+
+<style>
+  [x-cloak] {
+    display: none !important;
+  }
+</style>
+
+<script>
+  
+  if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  } else {
+    document.documentElement.classList.remove('dark')
+  }
+</script>
+
+
+
+  
+    
+  
+
+
+
+<link rel="stylesheet" href="/css/main.mju0ii4a.css">
+
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-950">
+    <div class="top-0 z-50 w-full text-gray-200 bg-gray-200 border-2 border-gray-900 bg-gray-950 md:sticky border-b-stone-200/10">
+    <div x-data="{ open: false }" class="flex flex-col px-4 mx-auto max-w-full md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+        <div class="flex flex-row justify-between items-center p-4">
+            <a href="/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
+                <img src="/images/site-logo.png" width="36" height="36" class="w-9 h-9 transition-opacity group-hover:opacity-50 group-focus:opacity-70" alt="Hardware Hacking Laboratory Logo" style="width: 36px; height: 36px;" />
+                <div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
+                    Hardware Hacking Laboratory</div>
+            </a>
+            <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="button" :aria-expanded="open" aria-label="Toggle navigation menu" aria-controls="menuItems">
+                <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                    <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                    <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <nav id="menuItems" x-cloak :class="{'flex': open, 'hidden': !open}" class="hidden flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+            
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="https://blog.h2lab.org/blog/" title="Blog">
+                Blog
+            </a>
+            
+            
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="https://blog.h2lab.org/events/" title="Events">
+                Events
+            </a>
+            
+            
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="https://blog.h2lab.org/categories/stigs/" title="STIGs">
+                STIGs
+            </a>
+            
+            
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="https://blog.h2lab.org/projects/" title="Projects">
+                Projects
+            </a>
+            
+            
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="https://blog.h2lab.org/about/" title="About">
+                About
+            </a>
+            
+            
+            
+            <button id="theme-toggle" type="button" class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 md:hover:bg-gray-100 dark:md:hover:bg-gray-700 md:focus:outline-none md:focus:ring-4 md:focus:ring-gray-200 dark:md:focus:ring-gray-700 md:ml-2 xs:hidden">
+                <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                    </path>
+                </svg>
+                <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-label="Dark or Light Mode" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            
+        </nav>
+    </div>
+</div>
+
+    
+<article>
+  <header class="mb-4 bg-primary-600">
+    <span class="py-96">
+      <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
+        pyGdbToolkit: quickstart
+      </h1>
+    </span>
+  </header>
+  <div class="mx-auto mt-8 mb-2 max-w-5xl">
+    <div class="px-6">
+      
+    </div>
+  </div>
+  
+  <div class="px-6 pt-6 pb-16 mx-auto prose prose-h1:text-2xl dark:text-white">
+    <h2 id="what-is-pygdbtoolkit">What is pyGdbToolkit?</h2>
+<p><strong>pyGdbToolkit</strong> is an open-source collection of GDB commands for inspecting and diagnosing embedded targets, especially <strong>Arm Cortex-M microcontrollers</strong>. Developed by H2Lab, it extends your debugger with readable reports about the processor, peripherals, faults, RTOS tasks, and security configuration.</p>
+<p><strong>Its client/server mode goes beyond manual commands: an optional LLM agent can help audit the target by correlating firmware source code with observations from its execution.</strong> Rather than only explaining a code fragment or a register dump in isolation, the agent can investigate a question across software context and the connected target, under the auditor&rsquo;s supervision.</p>
+<p><a href="https://github.com/h2lab/pyGdbToolkit">Source code on GitHub</a> · <a href="https://pypi.org/project/pygdbtoolkit/">Package on PyPI</a> · <a href="https://pygdbtoolkit.readthedocs.io/en/stable/">Full documentation</a></p>
+<h2 id="why-use-it">Why use it?</h2>
+<p>Instead of switching between vendor tools, register manuals, and one-off scripts, you can investigate a target from the same GDB session used to debug its firmware. pyGdbToolkit uses the existing debugger connection to help you:</p>
+<ul>
+<li><strong>Identify the processor</strong> and discover target information with <code>lscpu</code>.</li>
+<li><strong>Understand peripheral registers</strong> using CMSIS-SVD descriptions rather than raw addresses.</li>
+<li><strong>Diagnose crashes</strong> by decoding Cortex-M fault status and exception context.</li>
+<li><strong>Inspect security settings and RTOS state</strong>, including supported MPU, TrustZone, Camelot, and Zephyr configurations.</li>
+<li><strong>Connect source-level intent with runtime evidence</strong> through the dashboard&rsquo;s optional LLM agent, combining authorized project-source access with debugger observations to guide an investigation.</li>
+</ul>
+<p>It is useful for firmware bring-up, debugging unexpected hardware behaviour, and embedded security investigations. Available information depends on the target and its debug access. You can work directly in GDB or use a terminal dashboard backed by a supervised debugging session.</p>
+<h2 id="1-install-from-pypi">1. Install from PyPI</h2>
+<p>You need <strong>Python 3.12 or newer</strong>, <strong>GDB with compatible embedded Python support</strong> (typically <code>gdb-multiarch</code> for Arm), and a connected target with a debug probe and a configured OpenOCD or pyOCD server.</p>
+<p>Install the published package with pip; no Git checkout is required. A virtual environment keeps the installation separate from your system&rsquo;s Python packages:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>python3 -m venv .venv
+</span></span><span style="display:flex;"><span>. .venv/bin/activate
+</span></span><span style="display:flex;"><span>python3 -m pip install pygdbtoolkit
+</span></span></code></pre></div><p>Before connecting hardware, check the Python interpreter embedded in GDB:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>gdb-multiarch -nx -batch -ex <span style="color:#e6db74">&#39;python import sys; print(sys.version); print(sys.path)&#39;</span>
+</span></span></code></pre></div><p>Use a Python environment compatible with that interpreter. GDB must be able to import the package and its dependencies; <strong>activating a virtual environment alone does not guarantee this</strong>. Check the import separately:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>gdb-multiarch -nx -batch -ex <span style="color:#e6db74">&#39;python import pyGdbToolkit&#39;</span>
+</span></span></code></pre></div><p>If this fails, follow the <a href="https://pygdbtoolkit.readthedocs.io/en/stable/getting-started.html#requirements">Python environment setup in the first-session guide</a> before continuing. It explains how to make the installed environment visible to GDB.</p>
+<h2 id="2-choose-your-session-mode">2. Choose your session mode</h2>
+<p>Both modes provide the same toolkit commands, but the client/server dashboard also offers an optional LLM-assisted audit workflow:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Mode</th>
+					<th>Best suited to</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Direct GDB</td>
+					<td>An existing debugging setup, or users who prefer GDB&rsquo;s native prompt.</td>
+			</tr>
+			<tr>
+					<td>Server and client</td>
+					<td>A supervised probe/GDB session with live logs, a terminal dashboard, and optional LLM-assisted audits correlating firmware sources with target execution.</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="option-a-connect-directly-from-gdb">Option A: connect directly from GDB</h3>
+<p>Start your board&rsquo;s OpenOCD or pyOCD GDB server separately, then open your firmware&rsquo;s ELF file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>gdb-multiarch firmware.elf
+</span></span></code></pre></div><p>At the GDB prompt:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(gdb) target extended-remote localhost:3333
+</span></span><span style="display:flex;"><span>(gdb) monitor reset halt
+</span></span><span style="display:flex;"><span>(gdb) python import pyGdbToolkit
+</span></span><span style="display:flex;"><span>(gdb) lscpu
+</span></span></code></pre></div><p>Replace <code>firmware.elf</code> and port <code>3333</code> with your own firmware and server settings. The reset command depends on the debug server and <strong>resets the target</strong>; omit it if you need to preserve the current state, and halt the target before inspection. <code>lscpu</code> reports the detected core and available device information.</p>
+<p>For board and probe setup, see the <a href="https://pygdbtoolkit.readthedocs.io/en/stable/configuration-examples.html">configuration examples</a>.</p>
+<h3 id="option-b-use-the-server-and-terminal-dashboard">Option B: use the server and terminal dashboard</h3>
+<p>Choose a <a href="https://pygdbtoolkit.readthedocs.io/en/stable/configuration-examples.html">configuration example</a> matching your probe and board, save it as <code>servercfg.json</code>, and adapt its executable paths, target settings, and ports. Then start the session:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>pyGdbServer servercfg.json
+</span></span></code></pre></div><p>The server starts the configured OpenOCD or pyOCD process and GDB, loads the toolkit, and runs the configured initialization commands. In another terminal, activate the same Python environment and launch the client:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>. .venv/bin/activate
+</span></span><span style="display:flex;"><span>pyGdbClient ws://localhost:1234
+</span></span></code></pre></div><p>Use the WebSocket port from your configuration: the documented pyOCD example uses <code>1234</code>, while the OpenOCD example uses <code>1235</code>. This is the client connection, not GDB&rsquo;s target port.</p>
+<p>At the dashboard prompt, try:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>lscpu
+</span></span><span style="display:flex;"><span>gdb info registers
+</span></span><span style="display:flex;"><span>monitor help
+</span></span></code></pre></div><p>Toolkit commands such as <code>lscpu</code> run directly; prefix native GDB commands with <code>gdb</code>. Use <code>quit</code> to disconnect the client, or <code>quit --all</code> to stop the supervised session as well.</p>
+<p>Keep the server bound to loopback for this local quickstart. For remote access, automation, and full configuration, see the <a href="https://pygdbtoolkit.readthedocs.io/en/stable/pygdbserver.html">server/client guide</a>.</p>
+<h3 id="go-beyond-manual-commands-with-an-llm-assisted-audit">Go beyond manual commands with an LLM-assisted audit</h3>
+<p>The dashboard can attach an LLM agent to the debugging session. You describe an audit objective in natural language; the agent can plan a sequence of inspections, request observations through GDB, the debug server, and toolkit commands, then use the results to refine its analysis. This turns individual commands into a guided investigation rather than requiring you to select and interpret every command yourself.</p>
+<p><strong>The key benefit is bringing the target&rsquo;s software sources and its execution into the same audit context.</strong> With a supported project loaded and source access explicitly enabled where required, the agent can inspect relevant code and relate it to observed registers, memory, fault context, or RTOS state. This helps check whether the implementation&rsquo;s intended behaviour agrees with what is actually observable on the device. Source access depends on the selected backend and project setup; it is not enabled automatically for every session.</p>
+<p>For example, with the appropriate project context and agent configured, you could ask:</p>
+<blockquote>
+<p>Find the code that configures memory protection, inspect the target&rsquo;s current MPU settings, and explain any differences between the intended policy and the observed configuration.</p>
+</blockquote>
+<p>Or, after the target stops in a fault handler:</p>
+<blockquote>
+<p>Use the fault context and the corresponding firmware sources to investigate the failing operation. Distinguish confirmed observations from hypotheses and suggest the next checks.</p>
+</blockquote>
+<p>These are investigation requests, not predefined commands or guarantees of a finding. The agent can chain complementary observations and relate them to source code, going well beyond a static code explanation or a manually collected register report. Its conclusions still require review: source code, build artifacts, and the flashed firmware must correspond for meaningful comparisons.</p>
+<p>Target operations remain subject to a local protection policy, with explicit approval for operations that require it. LLM assistance is optional and must be configured separately. For production or confidential audit data, use a local model on trusted equipment; do not enable source sharing with an external provider unless disclosure is authorized.</p>
+<p>For supported providers, project loading, source-access permissions, and setup instructions, follow the <a href="https://pygdbtoolkit.readthedocs.io/en/stable/agent.html">agent-assisted audit guide</a>.</p>
+<h2 id="3-discover-the-targets-memory">3. Discover the target&rsquo;s memory</h2>
+<p>The following examples use the direct GDB prompt. In the dashboard, enter the same toolkit commands without the <code>(gdb)</code> prefix.</p>
+<p>Memory discovery works without a loaded SVD or firmware ELF. With the target connected and halted, start with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(gdb) memmap discover
+</span></span><span style="display:flex;"><span>(gdb) memmap show
+</span></span><span style="display:flex;"><span>(gdb) memmap report mapping.json
+</span></span></code></pre></div><p>This gathers available identity and memory-map information, displays the result, and exports a report to <code>mapping.json</code> on the machine running GDB. It is useful when exploring an unfamiliar board before loading peripheral descriptions.</p>
+<p>On a target you are authorized to probe, you can also sample access at declared memory-region endpoints:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(gdb) memmap discover --verify
+</span></span></code></pre></div><p>These are real target accesses, not an exhaustive memory scan. Successful samples do not prove that a whole region is accessible, and failures do not by themselves prove protection. See the <a href="https://pygdbtoolkit.readthedocs.io/en/stable/memmap.html">memory discovery guide</a> for probing precautions and report interpretation.</p>
+<h2 id="4-inspect-a-peripheral">4. Inspect a peripheral</h2>
+<p>With the target halted, load its CMSIS-SVD register description and list the peripherals:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(gdb) svd load
+</span></span><span style="display:flex;"><span>(gdb) svd list
+</span></span><span style="display:flex;"><span>(gdb) svd show GPIOA
+</span></span></code></pre></div><p>Use a peripheral name returned by <code>svd list</code>; <code>GPIOA</code> is an example. This lets you inspect named registers and fields instead of manually decoding addresses. Automatic loading depends on device support and may need network access. To use a local description instead:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(gdb) svd read /path/to/device.svd
+</span></span></code></pre></div><p>Register reads can have hardware side effects. Check the device reference manual before inspecting sensitive peripherals. See the <a href="https://pygdbtoolkit.readthedocs.io/en/stable/svd.html">SVD guide</a> for details.</p>
+<h2 id="5-investigate-a-fault">5. Investigate a fault</h2>
+<p>For example, set a breakpoint on your firmware&rsquo;s fault handler before resuming execution. If its symbol is <code>HardFault_Handler</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(gdb) break HardFault_Handler
+</span></span><span style="display:flex;"><span>(gdb) continue
+</span></span></code></pre></div><p>If execution stops in a Cortex-M fault handler, run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(gdb) fault_info
+</span></span></code></pre></div><p>The report decodes fault status and the available stacked exception context, helping you understand why the firmware crashed. Use your firmware&rsquo;s actual handler symbol, and inspect the stopped state before resetting the board. Interpretation and limitations are covered in the <a href="https://pygdbtoolkit.readthedocs.io/en/stable/fault_info.html">fault analysis guide</a>.</p>
+<h2 id="common-startup-problems">Common startup problems</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>First checks</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>GDB cannot import the toolkit or a dependency</td>
+					<td>Check GDB&rsquo;s embedded Python version and import path. A working import in your shell&rsquo;s Python does not guarantee one in GDB.</td>
+			</tr>
+			<tr>
+					<td>OpenOCD or pyOCD cannot start</td>
+					<td>Check executable paths, board configuration, USB permissions, and whether another process is already using the probe.</td>
+			</tr>
+			<tr>
+					<td>The dashboard cannot connect</td>
+					<td>Wait for server initialization and check the configured WebSocket host and port.</td>
+			</tr>
+			<tr>
+					<td>Automatic SVD loading fails</td>
+					<td>Check network access and device support, or use <code>svd read</code> with a matching local SVD file.</td>
+			</tr>
+			<tr>
+					<td>A command cannot read memory</td>
+					<td>Check the target connection, selected core, halt state, and debug-access restrictions.</td>
+			</tr>
+	</tbody>
+</table>
+<p>For detailed fixes, use the <a href="https://pygdbtoolkit.readthedocs.io/en/stable/getting-started.html#common-startup-problems">first-session troubleshooting guide</a>.</p>
+<h2 id="go-further">Go further</h2>
+<p>Once your first session works, try an <a href="https://pygdbtoolkit.readthedocs.io/en/stable/agent.html">LLM-assisted audit</a> to connect software analysis with runtime inspection, or explore the <a href="https://pygdbtoolkit.readthedocs.io/en/stable/secscan.html">security audit commands</a> and <a href="https://pygdbtoolkit.readthedocs.io/en/stable/rtos.html">RTOS inspection</a> manually. For automation, advanced configuration, supported targets, and the complete command reference, continue with the <a href="https://pygdbtoolkit.readthedocs.io/en/stable/">full Read the Docs guide</a>.</p>
+
+  </div>
+</article>
+
+    <footer class="bg-gray-900">
+    <div class="px-4 py-12 mx-auto max-w-7xl">
+        <nav class="flex flex-wrap gap-6 justify-center" aria-label="Footer">
+            
+            <a href="https://blog.h2lab.org/blog/" class="text-base text-gray-400 hover:text-gray-200">Blog</a>
+            
+            <a href="https://blog.h2lab.org/events/" class="text-base text-gray-400 hover:text-gray-200">Events</a>
+            
+            <a href="https://blog.h2lab.org/categories/stigs/" class="text-base text-gray-400 hover:text-gray-200">STIGs</a>
+            
+            <a href="https://blog.h2lab.org/projects/" class="text-base text-gray-400 hover:text-gray-200">Projects</a>
+            
+            <a href="https://blog.h2lab.org/about/" class="text-base text-gray-400 hover:text-gray-200">About</a>
+            
+        </nav>
+        <p class="mt-8 text-base text-center text-gray-400">&copy; 2026 Hardware Hacking Laboratory</p>
+    </div>
+</footer>
+
+
+
+<script defer src="/js/darkmode.js"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js" crossorigin="anonymous" rel="preconnect"></script>
+
+</body>
+
+</html>
